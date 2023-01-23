@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Script displays: FizzBuzz when number is a multiple of 3 and 5, Fizz when multiple of 3, Buzz when multiple of 5
+
+for (( i=1; i < 101; i++ ))
+do
+    if (( i % 15 == 0 )); then
+        echo "FizzBuzz"
+    elif (( i % 3 == 0 )); then
+        echo "Fizz"
+    elif (( i % 5 == 0 )); then
+        echo "Buzz"
+    else
+        echo "$i"
+    fi
+done
