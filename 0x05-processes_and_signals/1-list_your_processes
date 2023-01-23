@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# The script list currently running processes
+
+ps -aux | less
