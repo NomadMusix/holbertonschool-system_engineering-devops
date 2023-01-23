@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Script that prints "I am invincible" when SIGTERM signal is sent
 
-trap "echo Iam invinvible!!!" SIGTERM
+trap "echo I am invinvible!!!" SIGTERM
 while true
 do
     echo "To infinity and beyond"
