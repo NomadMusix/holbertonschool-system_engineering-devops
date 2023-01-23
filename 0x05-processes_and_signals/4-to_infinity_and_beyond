@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Script displays "To infinity and beyond" indefinitely
+# Must use ctrl+c to kil
+
+while true
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
