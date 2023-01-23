@@ -8,9 +8,9 @@ do
       (( h++ ))
      
       m=1
-      while [ $m -le 59 ]
+      while [ "$m" -le 59 ]
       do
-      echo "Minute: $m"
+      echo "$m"
       (( m++ ))
       done
 done
